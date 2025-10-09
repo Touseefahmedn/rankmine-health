@@ -109,33 +109,23 @@ const URLS = [
 ];
 
 async function checkAll(){
-  console.log('🩺  Crawling '+URLS.length+' tools…');
   const broken = [];
   for (const url of URLS){
     try{
       const res = await axios.get(url, { timeout: 8000 });
-      if (res.status !== 200) {
-        broken.push({ url, status: res.status });
-        console.log('❌  '+url+' → '+res.status);
-      } else {
-        console.log('✅  '+url+' → 200');
-      }
-      // optional: check for soft errors
+      if (res.status !== 200) broken.push({ url, status: res.status });
+      // optional: check for “No captions found” or “Invalid JSON” strings
       if (res.data.includes('No captions found') || res.data.includes('Invalid JSON')) {
         broken.push({ url, note: 'soft error' });
-        console.log('⚠️  '+url+' → soft error');
       }
     } catch (err) {
       broken.push({ url, error: err.message });
-      console.log('💥  '+url+' → '+err.message);
     }
   }
   if (broken.length === 0) {
-    console.log('🎉  All tools healthy ✅');
+    console.log('All tools healthy ✅');
     return;
   }
-  console.log('💔  '+broken.length+' tools broken');
   fs.writeFileSync('broken.json', JSON.stringify(broken, null, 2));
-  console.log('📄  Broken list saved to broken.json');
-}
+  }
 checkAll();
