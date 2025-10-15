@@ -2,6 +2,7 @@
 Live monitor for 100+ AI tools – instant uptime + broken-link alerts.  
 ![Demo](https://github.com/Touseefahmedn/rankmine-health/blob/main/health-demo.gif.gif)
 
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fx.com%2FTouseefAhmed_n%2Fstatus%2F1978427950824308810)](https://x.com/TouseefAhmed_n/status/1978427950824308810)
 # RankMine Health Monitor
 Daily crawler for [RankMine](https://rankmine.blogspot.com) – 106 SEO tools.
 Opens GitHub issue only if a tool breaks (zero spam).
