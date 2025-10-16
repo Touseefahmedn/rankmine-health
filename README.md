@@ -6,8 +6,30 @@ Live monitor for 100+ AI tools – instant uptime + broken-link alerts.
 [Tweet thread](https://x.com/TouseefAhmed_n/status/1978427950824308810) – join the conversation!
 
 # RankMine Health Monitor
-Daily crawler for [RankMine](https://rankmine.blogspot.com) – 106 SEO tools.
+Daily crawler for [RankMine](https://rankmine.blogspot.com) – 100+ SEO tools.
 Opens GitHub issue only if a tool breaks (zero spam).
+
+## 🚀 Usage in CI (GitHub Actions)
+
+```yaml
+name: Site-Health-Check
+on:
+  schedule: [cron: '0 */6 * * *']   # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: node-version: 18
+      - run: npm install axios
+      - run: node health.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: broken-report
+          path: broken.json
 
 ## How it works
 - GitHub Action runs every night 2 AM IST
