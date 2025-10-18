@@ -74,7 +74,10 @@ const URLS = [
   'https://rankmine.blogspot.com/p/ai-random-word.html',
   'https://rankmine.blogspot.com/p/ai-palindrome-checker.html',
   'https://rankmine.blogspot.com/p/ai-text-case-toggle.html',
-  'https://rankmine.blogspot.com/2025/10/daily-prompt.html'
+  'https://rankmine.blogspot.com/p/daily-photo-prompts.html',
+  'https://rankmine.blogspot.com/2025/10/happy-diwali-ai-portrait-generator.html',
+  'https://rankmine.blogspot.com/2025/10/ai-ducati-streetfighter-portrait.html',
+  'https://rankmine.blogspot.com/2025/10/ai-ghost-rider-bike-portrait.html',
 ];
 
 (async function checkAll () {
