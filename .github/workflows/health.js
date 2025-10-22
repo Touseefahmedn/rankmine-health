@@ -82,7 +82,7 @@ const URLS = [
   'https://rankmine.blogspot.com/p/ai-ghost-rider-bike-portrait-8k-cinematic-flames-upload-face.html',
   'https://rankmine.blogspot.com/2025/10/happy-diwali-ai-portrait-8k-generator.html',
   'https://rankmine.blogspot.com/2025/10/ai-cinematic-8k-portrait-generator.html',
-  
+  'https://rankmine.blogspot.com/2025/10/ai-double-exposure-portrait-generator.html',
 ];
 
 (async function checkAll () {
@@ -111,4 +111,5 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
