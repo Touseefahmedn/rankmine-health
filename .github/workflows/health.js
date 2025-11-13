@@ -77,6 +77,11 @@ const URLS = [
   'https://rankmine.blogspot.com/p/daily-photo-prompts.html',
   'https://rankmine.blogspot.com/p/ai-prompt-expander.html',
   'https://rankmine.blogspot.com/p/youtube-title-description-generator-seo.html',
+  'https://rankmine.blogspot.com/p/user-data-deletion.html
+  'https://rankmine.blogspot.com/p/sitemap.html',
+  'https://rankmine.blogspot.com/p/contact.html',
+  'https://rankmine.blogspot.com/p/terms-of-service.html',
+  'https://rankmine.blogspot.com/p/privacy-policy.html',
   'https://rankmine.blogspot.com/2025/10/happy-diwali-ai-portrait-generator.html',
   'https://rankmine.blogspot.com/2025/10/ai-ducati-streetfighter-portrait.html',
   'https://rankmine.blogspot.com/p/ai-ghost-rider-bike-portrait-8k-cinematic-flames-upload-face.html',
@@ -84,6 +89,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/10/ai-cinematic-8k-portrait-generator.html',
   'https://rankmine.blogspot.com/2025/10/ai-double-exposure-portrait-generator.html',
   'https://rankmine.blogspot.com/2025/10/ai-ultra-realistic-portrait-generator.html',
+  'https://rankmine.blogspot.com/2025/11/ai-leo-style-cinematic-poster-generator.html',
 ];
 
 (async function checkAll () {
@@ -112,6 +118,7 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
 
 
