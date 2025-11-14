@@ -89,7 +89,8 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/10/ai-cinematic-8k-portrait-generator.html',
   'https://rankmine.blogspot.com/2025/10/ai-double-exposure-portrait-generator.html',
   'https://rankmine.blogspot.com/2025/10/ai-ultra-realistic-portrait-generator.html',
-  'https://rankmine.blogspot.com/2025/11/ai-leo-style-cinematic-poster-generator.html',
+  'https://rankmine.blogspot.com/2025/11/ai-leo-style-cinematic-poster-generator.html
+  'https://rankmine.blogspot.com/2025/11/ai-graphic-album-cover-generator.html',
 ];
 
 (async function checkAll () {
@@ -118,6 +119,7 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
 
 
