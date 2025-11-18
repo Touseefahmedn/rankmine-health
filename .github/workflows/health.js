@@ -93,6 +93,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/11/ai-graphic-album-cover-generator.html',
   'https://rankmine.blogspot.com/2025/11/ai-generate-viral-gemini-poster.html',
   'https://rankmine.blogspot.com/2025/11/cinematic-airplane-portrait.html',
+  'https://rankmine.blogspot.com/2025/11/cross-generation-guitar-portrait.html',
 ];
 
 (async function checkAll () {
@@ -121,6 +122,7 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
 
 
