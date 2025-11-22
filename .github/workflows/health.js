@@ -97,6 +97,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/11/hyper-realistic-cinematic-portrait.html',
   'https://rankmine.blogspot.com/2025/11/hyperrealistic-smoke-transformation.html',
   'https://rankmine.blogspot.com/2025/11/youtube-digital-id-card-portrait.html',
+  'https://rankmine.blogspot.com/2025/11/angel-wing-shadow-portrait.html',
 
 ];
 
@@ -126,6 +127,7 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
 
 
