@@ -82,6 +82,8 @@ const URLS = [
   'https://rankmine.blogspot.com/p/contact.html',
   'https://rankmine.blogspot.com/p/terms-of-service.html',
   'https://rankmine.blogspot.com/p/privacy-policy.html',
+  'https://rankmine.blogspot.com/p/ai-news.html',
+  'https://rankmine.blogspot.com/p/subscribe.html',
   'https://rankmine.blogspot.com/2025/10/happy-diwali-ai-portrait-generator.html',
   'https://rankmine.blogspot.com/2025/10/ai-ducati-streetfighter-portrait.html',
   'https://rankmine.blogspot.com/p/ai-ghost-rider-bike-portrait-8k-cinematic-flames-upload-face.html',
@@ -98,6 +100,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/11/hyperrealistic-smoke-transformation.html',
   'https://rankmine.blogspot.com/2025/11/youtube-digital-id-card-portrait.html',
   'https://rankmine.blogspot.com/2025/11/angel-wing-shadow-portrait.html',
+  'https://rankmine.blogspot.com/2025/11/top-ai-portrait-tools-test.html',
 
 ];
 
@@ -127,6 +130,7 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
 
 
