@@ -102,6 +102,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/11/angel-wing-shadow-portrait.html',
   'https://rankmine.blogspot.com/2025/11/top-ai-portrait-tools-test.html',
   'https://rankmine.blogspot.com/2025/11/dual-frame-mango-pour-portrait.html',
+  'https://rankmine.blogspot.com/2025/11/desert-falcon-heroic-portrait.html',
 
 ];
 
@@ -131,6 +132,7 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
 
 
