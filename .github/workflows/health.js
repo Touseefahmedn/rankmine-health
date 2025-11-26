@@ -104,7 +104,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/11/dual-frame-mango-pour-portrait.html',
   'https://rankmine.blogspot.com/2025/11/desert-falcon-heroic-portrait.html',
   'https://rankmine.blogspot.com/2025/11/wildlife-cub-shoulder-portrait.html',
-  'https://rankmine.blogspot.com/2025/11/wildlife-cub-shoulder-portrait_25.html',
+  'https://rankmine.blogspot.com/2025/11/tactical-gear-professional-portrait.html',
 ];
 
 (async function checkAll () {
@@ -133,6 +133,7 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
 
 
