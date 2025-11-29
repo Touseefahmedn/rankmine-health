@@ -107,6 +107,8 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/11/tactical-gear-professional-portrait.html',
   'https://rankmine.blogspot.com/2025/11/ruins-money-runner-portrait.html',
   'https://rankmine.blogspot.com/2025/11/cyberpunk-fitness-guru-portrait.html',
+  'https://rankmine.blogspot.com/p/todays-panchang.html',
+  'https://rankmine.blogspot.com/2025/11/snow-panther-warrior-portrait.html',
 ];
 
 (async function checkAll () {
@@ -135,6 +137,7 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
 
 
