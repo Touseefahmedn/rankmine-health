@@ -115,6 +115,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/12/festive-peacoat-portrait.html',
   'https://rankmine.blogspot.com/2025/12/desert-cafe-racer-portrait.html',
   'https://rankmine.blogspot.com/2025/12/lion-throne-portrait.html',
+  'https://rankmine.blogspot.com/2025/12/industrial-plaid-portrait.html',
 ];
 
 (async function checkAll () {
@@ -143,6 +144,7 @@ const URLS = [
     console.log('Broken count:', broken.length);
   }
 })();
+
 
 
 
