@@ -86,6 +86,7 @@ const URLS = [
   'https://rankmine.blogspot.com/p/subscribe.html',
   'https://rankmine.blogspot.com/p/todays-panchang.html',
   'https://rankmine.blogspot.com/p/showcase.html',
+  'https://rankmine.blogspot.com/p/ai-tools-directory.html',
   'https://rankmine.blogspot.com/2025/10/happy-diwali-ai-portrait-generator.html',
   'https://rankmine.blogspot.com/2025/10/ai-ducati-streetfighter-portrait.html',
   'https://rankmine.blogspot.com/p/ai-ghost-rider-bike-portrait-8k-cinematic-flames-upload-face.html',
@@ -117,7 +118,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/12/lion-throne-portrait.html',
   'https://rankmine.blogspot.com/2025/12/industrial-plaid-portrait.html',
   'https://rankmine.blogspot.com/2025/12/ledge-contemplation-portrait.html',
-];
+  ];
 
 (async function checkAll () {
   const broken = [];
