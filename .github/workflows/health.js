@@ -119,6 +119,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2025/12/industrial-plaid-portrait.html',
   'https://rankmine.blogspot.com/2025/12/ledge-contemplation-portrait.html',
   'https://rankmine.blogspot.com/2026/07/ai-portrait-studio.html',
+  'https://rankmine.blogspot.com/2026/07/retail-store-horse-rider.html',
   ];
 
 (async function checkAll () {
