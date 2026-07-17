@@ -121,6 +121,7 @@ const URLS = [
   'https://rankmine.blogspot.com/2026/07/ai-portrait-studio.html',
   'https://rankmine.blogspot.com/2026/07/retail-store-horse-rider.html',
   'https://rankmine.blogspot.com/2026/07/ai-anime-avatar-maker.html',
+  'https://rankmine.blogspot.com/2026/07/ai-cyberpunk-portrait-maker.html',
   ];
 
 (async function checkAll () {
