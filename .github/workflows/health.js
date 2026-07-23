@@ -86,7 +86,7 @@ const URLS = [
   'https://rankmine.blogspot.com/p/subscribe.html',
   'https://rankmine.blogspot.com/p/todays-panchang.html',
   'https://rankmine.blogspot.com/p/showcase.html',
-  'https://rankmine.blogspot.com/p/ai-tools-directory.html',
+  'https://rankmine.blogspot.com/p/ai-tools.html',
   'https://rankmine.blogspot.com/p/serp-simulator.html',
   'https://rankmine.blogspot.com/p/meta-tag-generator.html',
   'https://rankmine.blogspot.com/p/prompt-spinner.html',
